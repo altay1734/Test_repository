@@ -15,8 +15,4 @@ jobs:
     - name: yarn install
       run: yarn install
     - name: eslint
-      uses: icrawl/action-eslint@v1
-      with:
-        custom-glob: apps # only if a different glob is needed, default: src
-
-
+      run: make lint
