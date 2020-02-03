@@ -1,3 +1,1 @@
-const a = () => {
-  const a=q
-}
+export default (q) => q * 2;
